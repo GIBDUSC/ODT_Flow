@@ -5,6 +5,6 @@ Prediction and control of the spread of infectious diseases such as COVID-19 ben
 * Explore and visualize the ODT flow data using the ODT Flow Explorer: http://gis.cas.sc.edu/GeoAnalytics/od.html
 * Learn how to use the Explorer with the Video Tutorial: https://www.youtube.com/watch?v=lV3AJIVYnSI
 * Access the ODT flow data programatically using the REST APIs: https://github.com/GIBDUSC/ODT_Flows/wiki/ODT-Flow-REST-APIs
-* Learn more about the ODT flow data and explorer at: https://arxiv.org/abs/2011.12958
+* Learn more about the ODT flow data and the explorer at: https://arxiv.org/abs/2011.12958
 
 
