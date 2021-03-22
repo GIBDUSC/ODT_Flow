@@ -1,0 +1,576 @@
+{
+  "version": "v1", 
+  "config": {
+    "visState": {
+      "layers": [
+        {
+          "type": "arc", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "colorScale": "quantile"
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              228, 
+              182, 
+              0
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o -> d arc", 
+            "isVisible": true, 
+            "visConfig": {
+              "opacity": 0.26, 
+              "sizeRange": [
+                0, 
+                10
+              ], 
+              "thickness": 0.2, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "targetColor": [
+                92, 
+                9, 
+                122
+              ]
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat1": "d_lat", 
+              "lat0": "o_lat", 
+              "lng1": "d_lon", 
+              "lng0": "o_lon"
+            }
+          }, 
+          "id": "ly0mt17"
+        }, 
+        {
+          "type": "point", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorScale": "quantile", 
+            "strokeColorScale": "quantile", 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "strokeColorField": null
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              136, 
+              87, 
+              44
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o", 
+            "isVisible": true, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "outline": false, 
+              "strokeColorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "thickness": 2, 
+              "fixedRadius": false, 
+              "radius": 10, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "strokeColor": null, 
+              "radiusRange": [
+                0, 
+                50
+              ], 
+              "filled": true
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat": "o_lat", 
+              "lng": "o_lon", 
+              "altitude": null
+            }
+          }, 
+          "id": "pl2nagk"
+        }, 
+        {
+          "type": "point", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorScale": "quantile", 
+            "strokeColorScale": "quantile", 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "strokeColorField": null
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              255, 
+              153, 
+              31
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "d", 
+            "isVisible": false, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "outline": false, 
+              "strokeColorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "thickness": 2, 
+              "fixedRadius": false, 
+              "radius": 10, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "strokeColor": null, 
+              "radiusRange": [
+                0, 
+                50
+              ], 
+              "filled": true
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat": "d_lat", 
+              "lng": "d_lon", 
+              "altitude": null
+            }
+          }, 
+          "id": "4u25vmk"
+        }, 
+        {
+          "type": "line", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "colorScale": "quantile"
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              241, 
+              92, 
+              23
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o -> d line", 
+            "isVisible": false, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "sizeRange": [
+                0, 
+                10
+              ], 
+              "thickness": 2, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }, 
+              "targetColor": null
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat1": "d_lat", 
+              "lat0": "o_lat", 
+              "lng1": "d_lon", 
+              "lng0": "o_lon"
+            }
+          }, 
+          "id": "kwdbfxe"
+        }, 
+        {
+          "type": "icon", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "colorScale": "quantile"
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              34, 
+              63, 
+              154
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o place", 
+            "isVisible": false, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "radiusRange": [
+                0, 
+                50
+              ], 
+              "fixedRadius": false, 
+              "radius": 10, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat": "o_lat", 
+              "lng": "o_lon", 
+              "icon": "o_place"
+            }
+          }, 
+          "id": "gzfo0s5"
+        }, 
+        {
+          "type": "icon", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "colorScale": "quantile"
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              218, 
+              112, 
+              191
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o lat", 
+            "isVisible": false, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "radiusRange": [
+                0, 
+                50
+              ], 
+              "fixedRadius": false, 
+              "radius": 10, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat": "o_lat", 
+              "lng": "o_lon", 
+              "icon": "o_lat"
+            }
+          }, 
+          "id": "w2cbsw"
+        }, 
+        {
+          "type": "icon", 
+          "visualChannels": {
+            "sizeField": null, 
+            "colorField": null, 
+            "sizeScale": "linear", 
+            "colorScale": "quantile"
+          }, 
+          "config": {
+            "dataId": "OD Flows", 
+            "color": [
+              18, 
+              92, 
+              119
+            ], 
+            "textLabel": [
+              {
+                "color": [
+                  255, 
+                  255, 
+                  255
+                ], 
+                "field": null, 
+                "offset": [
+                  0, 
+                  0
+                ], 
+                "anchor": "start", 
+                "alignment": "center", 
+                "size": 18
+              }
+            ], 
+            "label": "o lon", 
+            "isVisible": false, 
+            "visConfig": {
+              "opacity": 0.8, 
+              "radiusRange": [
+                0, 
+                50
+              ], 
+              "fixedRadius": false, 
+              "radius": 10, 
+              "colorRange": {
+                "category": "Uber", 
+                "colors": [
+                  "#5A1846", 
+                  "#900C3F", 
+                  "#C70039", 
+                  "#E3611C", 
+                  "#F1920E", 
+                  "#FFC300"
+                ], 
+                "type": "sequential", 
+                "name": "Global Warming"
+              }
+            }, 
+            "hidden": false, 
+            "columns": {
+              "lat": "o_lat", 
+              "lng": "o_lon", 
+              "icon": "o_lon"
+            }
+          }, 
+          "id": "jqfjr9t"
+        }
+      ], 
+      "interactionConfig": {
+        "coordinate": {
+          "enabled": false
+        }, 
+        "brush": {
+          "enabled": false, 
+          "size": 0.5
+        }, 
+        "geocoder": {
+          "enabled": false
+        }, 
+        "tooltip": {
+          "fieldsToShow": {
+            "OD Flows": [
+              {
+                "name": "o_place", 
+                "format": null
+              }, 
+              {
+                "name": "d_place", 
+                "format": null
+              }, 
+              {
+                "name": "cnt", 
+                "format": null
+              }
+            ]
+          }, 
+          "compareMode": false, 
+          "enabled": true, 
+          "compareType": "absolute"
+        }
+      }, 
+      "animationConfig": {
+        "speed": 1, 
+        "currentTime": null
+      }, 
+      "splitMaps": [], 
+      "layerBlending": "additive", 
+      "filters": []
+    }, 
+    "mapState": {
+      "bearing": 0, 
+      "dragRotate": false, 
+      "zoom": 0.7094220626850932, 
+      "longitude": 11.295327258249392, 
+      "isSplit": false, 
+      "pitch": 0, 
+      "latitude": 20.239765685009953
+    }, 
+    "mapStyle": {
+      "mapStyles": {}, 
+      "topLayerGroups": {}, 
+      "threeDBuildingColor": [
+        9.665468314072013, 
+        17.18305478057247, 
+        31.1442867897876
+      ], 
+      "styleType": "dark", 
+      "visibleLayerGroups": {
+        "building": true, 
+        "land": true, 
+        "3d building": false, 
+        "label": true, 
+        "water": true, 
+        "border": false, 
+        "road": true
+      }
+    }
+  }
+}
