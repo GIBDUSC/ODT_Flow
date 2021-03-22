@@ -8,3 +8,4 @@ Prediction and control of the spread of infectious diseases such as COVID-19 ben
 * Learn more about the ODT flow data and the explorer at: https://arxiv.org/abs/2011.12958
 
 
+![alt text](http://gis.cas.sc.edu/gibd/wp-content/uploads/2020/11/ODT2.png)
