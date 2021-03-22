@@ -1,0 +1,395 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "7bpj7x6",
+          "type": "arc",
+          "config": {
+            "dataId": "GBR",
+            "label": "Great Britain",
+            "color": [
+              253,
+              236,
+              0
+            ],
+            "columns": {
+              "lat0": "o_lat",
+              "lng0": "o_lon",
+              "lat1": "d_lat",
+              "lng1": "d_lon"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                9
+              ],
+              "targetColor": null
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "cnt",
+              "type": "integer"
+            },
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "pa6img",
+          "type": "arc",
+          "config": {
+            "dataId": "JPN",
+            "label": "Japan",
+            "color": [
+              250,
+              161,
+              0
+            ],
+            "columns": {
+              "lat0": "o_lat",
+              "lng0": "o_lon",
+              "lat1": "d_lat",
+              "lng1": "d_lon"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                3
+              ],
+              "targetColor": null
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "cnt",
+              "type": "integer"
+            },
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "281li3p",
+          "type": "arc",
+          "config": {
+            "dataId": "DEU",
+            "label": "Germany",
+            "color": [
+              88,
+              121,
+              218
+            ],
+            "columns": {
+              "lat0": "o_lat",
+              "lng0": "o_lon",
+              "lat1": "d_lat",
+              "lng1": "d_lon"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                3
+              ],
+              "targetColor": null
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "cnt",
+              "type": "integer"
+            },
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "ndlny4",
+          "type": "arc",
+          "config": {
+            "dataId": "USA",
+            "label": "USA",
+            "color": [
+              32,
+              103,
+              172
+            ],
+            "columns": {
+              "lat0": "o_lat",
+              "lng0": "o_lon",
+              "lat1": "d_lat",
+              "lng1": "d_lon"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [
+                0,
+                20
+              ],
+              "targetColor": null
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "cnt",
+              "type": "integer"
+            },
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "USA": [
+              {
+                "name": "cnt",
+                "format": null
+              },
+              {
+                "name": "o_place",
+                "format": null
+              },
+              {
+                "name": "d_place",
+                "format": null
+              }
+            ],
+            "GBR": [
+              {
+                "name": "cnt",
+                "format": null
+              },
+              {
+                "name": "o_place",
+                "format": null
+              },
+              {
+                "name": "d_place",
+                "format": null
+              }
+            ],
+            "JPN": [
+              {
+                "name": "cnt",
+                "format": null
+              },
+              {
+                "name": "o_place",
+                "format": null
+              },
+              {
+                "name": "d_place",
+                "format": null
+              }
+            ],
+            "DEU": [
+              {
+                "name": "cnt",
+                "format": null
+              },
+              {
+                "name": "o_place",
+                "format": null
+              },
+              {
+                "name": "d_place",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": -1.1632653061224483,
+      "dragRotate": true,
+      "latitude": -2.3408882455571482e-12,
+      "longitude": 6.75688157819018,
+      "pitch": 20.59057534706878,
+      "zoom": 0.22881857712869558,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": true,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {}
+    }
+  }
+}
