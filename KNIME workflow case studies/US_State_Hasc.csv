@@ -1,0 +1,52 @@
+hasc,State,Abbr,FIPS
+US.AK,Alaska,AK,2
+US.AL,Alabama,AL,1
+US.AR,Arkansas,AR,5
+US.AZ,Arizona,AZ,4
+US.CA,California,CA,6
+US.CO,Colorado,CO,8
+US.CT,Connecticut,CT,9
+US.DC,District of Columbia,DC,11
+US.DE,Delaware,DE,10
+US.FL,Florida,FL,12
+US.GA,Georgia,GA,13
+US.HI,Hawaii,HI,15
+US.IA,Iowa,IA,19
+US.ID,Idaho,ID,16
+US.IL,Illinois,IL,17
+US.IN,Indiana,IN,18
+US.KS,Kansas,KS,20
+US.KY,Kentucky,KY,21
+US.LA,Louisiana,LA,22
+US.MA,Massachusetts,MA,25
+US.MD,Maryland,MD,24
+US.ME,Maine,ME,23
+US.MI,Michigan,MI,26
+US.MN,Minnesota,MN,27
+US.MO,Missouri,MO,29
+US.MS,Mississippi,MS,28
+US.MT,Montana,MT,30
+US.NC,North Carolina,NC,37
+US.ND,North Dakota,ND,38
+US.NE,Nebraska,NE,31
+US.NH,New Hampshire,NH,33
+US.NJ,New Jersey,NJ,34
+US.NM,New Mexico,NM,35
+US.NV,Nevada,NV,32
+US.NY,New York,NY,36
+US.OH,Ohio,OH,39
+US.OK,Oklahoma,OK,40
+US.OR,Oregon,OR,41
+US.PA,Pennsylvania,PA,42
+US.RI,Rhode Island,RI,44
+US.SC,South Carolina,SC,45
+US.SD,South Dakota,SD,46
+US.TN,Tennessee,TN,47
+US.TX,Texas,TX,48
+US.UT,Utah,UT,49
+US.VA,Virginia,VA,51
+US.VT,Vermont,VT,50
+US.WA,Washington,WA,53
+US.WI,Wisconsin,WI,55
+US.WV,West Virginia,WV,54
+US.WY,Wyoming,WY,56
