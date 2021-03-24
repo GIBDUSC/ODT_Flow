@@ -4,7 +4,7 @@ In response to the soaring needs of human mobility data, especially during disas
 
 * Explore, visualize, and download the ODT flow data using the ODT Flow Explorer: http://gis.cas.sc.edu/GeoAnalytics/od.html
 * Access the ODT flow data programmatically using the ODT Flow REST APIs with Jupyter Notebook: https://github.com/GIBDUSC/ODT_Flows/blob/main/ODT%20Flow%20REST%20APIs_Notebook_Tutorial.ipynb
-* Access the ODT flow data in the KNIME workflow computing environment: https://github.com/GIBDUSC/ODT_Flows/blob/main/ODT%20Flow%20REST%20APIs_Notebook_Tutorial.ipynb
+* Case studies of accessing the ODT flow data in the KNIME workflow computing environment: https://github.com/GIBDUSC/ODT_Flow/tree/main/KNIME%20workflow%20case%20studies
 * Learn how to use the Explorer with the Video Tutorial: https://www.youtube.com/watch?v=lV3AJIVYnSI
 * Learn more about the system at: https://shorturl.at/gqsxR
 
