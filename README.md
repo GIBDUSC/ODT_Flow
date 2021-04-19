@@ -1,7 +1,7 @@
 Data updates: 
 
-##Twitter-based flows is available from 01/01/2019 to 12/31/2020
-##Safegraph-based flows updated to 01/01/2019 to 04/15/2021 (updated on April 18, 2021)
+## Twitter-based flows is available from 01/01/2019 to 12/31/2020
+## Safegraph-based flows updated to 01/01/2019 to 04/15/2021 (updated on April 18, 2021)
 
 # ODT FLOW: Extracting, Querying, and Sharing Multi-source Multi-Scale Human Mobility
 
