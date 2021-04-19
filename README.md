@@ -11,8 +11,8 @@ In response to the soaring needs of human mobility data, especially during disas
 
 Data updates: 
 
-* Twitter-based flows is available from 01/01/2019 to 12/31/2020
-* Safegraph-based flows updated to 01/01/2019 to 04/15/2021 (updated on April 18, 2021)
+* Twitter-based flows are available from 01/01/2019 to 12/31/2020
+* Safegraph-based flows are available from 01/01/2019 to 04/15/2021 (updated on April 18, 2021)
 
 ![alt text](http://gis.cas.sc.edu/gibd/wp-content/uploads/2020/11/ODT2.png)
 
