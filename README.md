@@ -8,6 +8,7 @@ In response to the soaring needs of human mobility data, especially during disas
 * Learn how to use the Explorer with the Video Tutorial: https://www.youtube.com/watch?v=lV3AJIVYnSI
 * Learn more about the system at: https://www.researchgate.net/publication/350342301_ODT_FLOW_A_Scalable_Platform_for_Extracting_Analyzing_and_Sharing_Multi-source_Multi-scale_Human_Mobility_Flows
 
+All OD flows are downloaded in CSV (Comma-Separated Values) format. o_place refers to the id for the origin of the flow (using FIPS for places for US county and tract, using ISO place code for other places). d_place refers to the id for the destination of the flow (using FIPS for places for US county and tract, using ISO place code for other places).
 
 Data updates: 
 
